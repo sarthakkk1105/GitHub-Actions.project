@@ -7,7 +7,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "vitest run"
   },
   "dependencies": {
     "axios": "^1.18.1",
@@ -21,5 +23,9 @@
     "multer": "^2.2.0",
     "pdfjs-dist": "^6.1.200",
     "razorpay": "^2.9.6"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.1",
+    "vitest": "^5.0.3"
   }
 }
