@@ -1,6 +1,5 @@
-import React from "react";
 import { describe, expect, it, vi } from "vitest";
-import { fireEvent, render, screen } from "@testing-library/react";
+import {  render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 
 vi.mock("jspdf", () => {
@@ -61,7 +60,11 @@ describe("Interview report", () => {
   };
 
   it("shows loading state when no report exists", () => {
-    render(<Step3repot report={null} />);
+    render(
+  <MemoryRouter>
+    <Step3repot report={null} />
+  </MemoryRouter>
+);
     expect(screen.getByText("Loading Report...")).toBeInTheDocument();
   });
 

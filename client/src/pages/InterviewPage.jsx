@@ -32,7 +32,7 @@
 // };
 
 // export default InterviewPage;
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Step1setup from "../components/Step1setup";
 import Step2interview from "../components/Step2interview";
 import Step3repot from "../components/Step3repot";

@@ -1,4 +1,3 @@
-import React from 'react'
 import { BsRobot } from "react-icons/bs";
 import { IoSparkles } from "react-icons/io5";
 import { motion } from "motion/react"
@@ -11,7 +10,7 @@ import { useDispatch } from 'react-redux';
 import { setUserData } from '../redux/userSlice.js';
 import { useNavigate } from 'react-router-dom';
 
-const Auth = ({isModel=false}) => {
+const Auth = () => {
 
     const dispatch = useDispatch();
     const navigate = useNavigate();

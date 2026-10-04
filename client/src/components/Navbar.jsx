@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useState } from "react";
 import { motion } from "motion/react";
 import { BsRobot, BsCoin } from "react-icons/bs";
@@ -6,7 +6,6 @@ import { HiOutlineLogout } from "react-icons/hi";
 import { FaUserAstronaut } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import {ServerUrl} from "../App.jsx"
 import { setUserData } from "../redux/userSlice.js";
 import axios from "axios"
 import Authmodel from "./Authmodel.jsx";

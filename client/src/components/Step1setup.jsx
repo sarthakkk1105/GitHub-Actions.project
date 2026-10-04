@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion } from "motion/react";
 import {
   FaUserTie,
@@ -51,7 +51,7 @@ const Step1setup = ({ onStart }) => {
 
       setanalyzing(false);
     } catch (err) {
-      console.log(error);
+      console.log(err);
       setanalyzing(false);
     }
   };

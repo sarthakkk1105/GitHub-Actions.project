@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect } from 'react';
 import axios from 'axios';
 import { Routes ,Route} from 'react-router-dom'
