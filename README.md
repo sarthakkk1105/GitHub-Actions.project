@@ -155,3 +155,4 @@ The platform reads resume content, infers relevant details, and generates custom
 ---
 
 This README is designed to be easy to explain in interviews and to help future maintainers understand the project quickly
+[![Architecture diagram](https://gitdiagram.com/diagram-badge.svg)](https://gitdiagram.com/sarthakkk1105/github-actions.project?utm_source=readme&utm_medium=badge)
